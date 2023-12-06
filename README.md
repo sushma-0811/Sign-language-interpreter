@@ -26,11 +26,15 @@ Keras
 OpenCV
 Setup
 Use comand promt to setup environment by using install_packages.txt and install_packages_gpu.txt files.
-pyton -m pip r install_packages.txt
+
+**python -m pip install -r install_packages.txt**
+
 
 This will help you in installing all the libraries required for the project.
 
 **Process**
+
+
 Run set_hand_histogram.py to set the hand histogram for creating gestures.
 Once you get a good histogram, save it in the code folder, or you can use the histogram created by us that can be found here.
 Added gestures and label them using OpenCV which uses webcam feed. by running create_gestures.py and stores them in a database. Alternately, you can use the gestures created by us here.
@@ -42,6 +46,8 @@ Run final.py. This will open up the gesture recognition window which will use yo
 
 
 **Features**
+
+
 Our model was able to predict the 44 characters in the ASL with a prediction accuracy >95%.
 
 Features that can be added:
