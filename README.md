@@ -45,10 +45,9 @@ Run final.py. This will open up the gesture recognition window which will use yo
 Our model was able to predict the 44 characters in the ASL with a prediction accuracy >95%.
 
 Features that can be added:
-
 Deploy the project on cloud and create an API for using it.
 Increase the vocabulary of our model
 Incorporate feedback mechanism to make the model more robust
 Add more sign languages
 Status
-Project is: finished. 
+**Project is: finished. **
